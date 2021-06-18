@@ -1,0 +1,20 @@
+{
+  "name": "lld/codelogintwilio",
+  "description": "twilio connector for code-login",
+  "type": "wordpress-plugin",
+  "authors": [
+    {
+      "name": "German Hernandez",
+      "email": "german@laligad.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "mustache/mustache": "^v2.12.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "alfa\\": "src/"
+    }
+  }
+}
